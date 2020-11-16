@@ -8,7 +8,7 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-// make sure you include the MyConfug file into your /Arduino/libraries/MyConfig folder
+// make sure you include the MyConfig file into your /Arduino/libraries/MyConfig folder
 // If you don´t want to use your own configuration file, comment this one and use the variables below
 #include <MyConfig.h>
 

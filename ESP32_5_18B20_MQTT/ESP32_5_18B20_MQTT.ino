@@ -12,7 +12,7 @@ extern "C" {
 #include <DallasTemperature.h>
 
 // If you don´t want to use your own configuration file, comment this one and use the variables below
-// make sure you include the MyConfug file into your /Arduino/libraries/MyConfig folder
+// make sure you include the MyConfig file into your /Arduino/libraries/MyConfig folder
 #include <MyConfig.h>
 
 // Replace the next variables with your SSID/Password combination if you don´t use your own "MyConfig.h" library
