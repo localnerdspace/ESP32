@@ -1,5 +1,6 @@
 # ESP32
 Codes for the ESP32
+There are several comments within the code file for a better understanding.
 
 Please keep in mind:
 All my .ino files contain a MyConfig.h. This file is e.g. my local WiFi and MQTT config.
