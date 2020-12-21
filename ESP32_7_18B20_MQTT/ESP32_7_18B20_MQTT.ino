@@ -19,6 +19,13 @@ extern "C" {
 // make sure you include the MyConfig file into your /Arduino/libraries/MyConfig folder
 #include <MyConfig.h>
 
+// Replace the next variables with your SSID/Password combination if you don´t use your own "MyConfig.h" library
+//#define WIFI_SSID "SSID"
+//#define WIFI_PASSWORD "PASSWORD"
+// Add your MQTT Broker IP address
+//#define MQTT_HOST IPAddress(xxx, xxx, xxx, xxx)
+//#define MQTT_PORT 1883
+
 // Temperature MQTT Topic
 #define MQTT_PUB_SOLAR "esp32/heating/solar" 
 #define MQTT_PUB_DEVOUT "esp32/heating/tempdevout" 
