@@ -121,21 +121,6 @@ void onMqttPublish(uint16_t packetId) {
   Serial.println(packetId);
 }
 
-void getTemperature(DeviceAddress deviceAddress) {
-float tempC = sensors.getTempC(deviceAddress);
-/*if (tempC == -127.00)
-   {
-   Serial.print(tempC);
-   }
-   else
-   {
-   Serial.print(tempC);
-   //Serial.print(" °C");
-   }*/
-  // return(tempC);
-  
-}
-
 void setup(){
   Serial.begin(115200);
   sensors.begin();
